@@ -1,0 +1,13 @@
+@mixin border-style (){
+  background-color: $bg-color-button;
+  color: $white;
+  padding: 6px 25px;
+  border-radius: 1.3em;
+  border-style: none;
+  outline: none;
+}
+
+@mixin grid-col-row($a,$b){
+  grid-column: $a;
+  grid-row: $b;
+}
